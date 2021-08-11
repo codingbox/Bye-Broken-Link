@@ -5,7 +5,7 @@ import time
 
 link_url = "https://cdn.jsdelivr.net/gh/codingbox/Pixiv-Craw@latest/url.txt"
 
-#os.system("curl -O " + link_url)
+os.system("curl -O " + link_url)
 
 url_list = []
 f = open("url.txt", "r")
