@@ -3,7 +3,7 @@ import threading
 import os
 import time
 
-link_url = "https://cdn.jsdelivr.net/gh/codingbox/Pixiv-Craw@latest/url.txt"
+link_url = "https://raw.githubusercontent.com/codingbox/Pixiv-Craw/main/url.txt"
 
 os.system("curl -O " + link_url)
 
